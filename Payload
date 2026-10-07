@@ -1,0 +1,16 @@
+{
+  "travelContext": {
+    "TravelUUID": "36d97125-95ca-4031-b31d-93b7b96ad3df",
+    "TravelID": 7,
+    "IsActiveEntity": true,
+    "agency_id": 70007,
+    "customer_id": 10007,
+    "begin_date": "2026-09-30",
+    "end_date": "2026-10-14",
+    "booking_fee": 100,
+    "total_price": 100,
+    "currency_code": "INR",
+    "description": "record 7",
+    "overall_status": "W"
+  }
+}

@@ -1,0 +1,11 @@
+Create a SAP Fiori App and Deploy it to SAP BTP, Cloud Foundry environment
+-------------------------------------------------------
+Build Lobby->Actions->Resource path field: /service/CAPWFService/$metadata
+b37878a7-9e80-4dba-b657-5bb701ce57c2
+-------------------------------------------------------
+[EADDRINUSE] - port 4004 is already in use by another server process.
+lsof -i :4004
+ps -ef | grep cds
+To Stop all CAP processes
+pkill -f cds
+lsof -i :4004

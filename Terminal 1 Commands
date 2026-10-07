@@ -1,0 +1,25 @@
+Step 1: When login to SAP BAS, to connect to HDI Container:
+cf login
+cds watch --profile hybrid
+-------------------------------------------------------
+Step 2: To retrieve the XSUAA credentials are:
+
+cf service-key BPA cap-bpa-key
+echo $BPA_CLIENT_ID
+echo $BPA_CLIENT_SECRET
+echo $BPA_TOKEN_URL
+echo $BPA_API_KEY
+echo $BPA_WORKFLOW_URL
+
+export BPA_CLIENT_ID='sb-644c7db8-bb00-4466-b7a2-06d2cece0085!b700067|xsuaa!b49390'
+export BPA_CLIENT_SECRET='7ede8469-e275-44c9-904e-702c0ce6574b$8RMgGV4tQ1iBPPPRkP6JN32iwjV9iGVsETizKxqHAGA='
+export BPA_TOKEN_URL='https://e66895ddtrial.authentication.us10.hana.ondemand.com/oauth/token'
+export BPA_API_KEY='lxgHNPRSy1BgM2h56ZWL22UfkVg7lF7w'
+export BPA_WORKFLOW_URL='https://spa-api-gateway-bpi-us-prod.cfapps.us10.hana.ondemand.com/workflow/rest/v1/workflow-instances'
+
+pkill -f cds
+cds watch --profile hybrid
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
