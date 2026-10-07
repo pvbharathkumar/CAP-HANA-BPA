@@ -1,0 +1,20 @@
+{
+    "exportTime": "2026-10-07 18:44:52.598317927",
+    "destination": {
+        "Name": "CAPWF-srv",
+        "Type": "HTTP",
+        "Description": "",
+        "URL": "https://e66895ddtrial-dev-capwf-srv.cfapps.us10-001.hana.ondemand.com",
+        "ProxyType": "Internet",
+        "Authentication": "OAuth2ClientCredentials",
+        "sap.processautomation.enabled": "true",
+        "sap.applicationdevelopment.actions.enabled": "true",
+        "HTML5.DynamicDestination": "true",
+        "WebIDEEnabled": "true",
+        "sap.build.usage": "odata_gen",
+        "clientId": "sb-CAPWF-e66895ddtrial-dev!t700067",
+        "clientSecret": "<removed>",
+        "tokenServiceURL": "https://e66895ddtrial.authentication.us10.hana.ondemand.com/oauth/token",
+        "tokenServiceURLType": "Dedicated"
+    }
+}

@@ -1,0 +1,33 @@
+CAP-HANA-BPA
+│
+├── app/
+├── db/
+├── srv/
+│
+├── docs/
+│   ├── CAP_Travel_Approval_Blog_Ready_Guide.docx
+│   ├── Architecture/
+│   │   └── CAP_Travel_Approval_Architecture.svg
+│   └── screenshots/
+│
+├── exports/
+│   ├── destinations/
+│   │   └── CAPWF-srv.json
+│   │
+│   ├── bpa-project/
+│   │   └── RAP110_Travel_Workflow.mtar
+│   │
+│   └── actions/
+│       └── CAPWFService3.mtar
+│
+├── metadata/
+│   └── CAPWFService.edmx
+│
+├── payload-examples/
+│   └── TravelApprovalPayload.json
+│
+├── mta.yaml
+├── package.json
+├── xs-security.json
+│
+└── README.md
