@@ -1,0 +1,5 @@
+After adding any changes to the Project or floder or file, run the below commands to commit to github.
+git add .
+git commit -m "My changes"
+git push
+-------------------------------------------------------------------------------------------------------------
