@@ -20,3 +20,34 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at <https://cap.cloud.sap>.
+--------------------------------------------------------------------------------------------------------------
+SAP CAP Travel Approval Application
+
+Technologies:
+- SAP CAP
+- SAP HANA Cloud
+- Fiori Elements
+- SAP Build Process Automation
+- SAP Build Actions
+- Cloud Foundry
+- OData V4
+
+End-to-End Flow:
+
+Fiori Create Travel
+        ↓
+CAP Service
+        ↓
+HANA Cloud
+        ↓
+Automatic BPA Workflow Start
+        ↓
+My Inbox
+        ↓
+Approve / Reject
+        ↓
+Update Travel Status
+        ↓
+Monitoring
+        ↓
+Database Validation
