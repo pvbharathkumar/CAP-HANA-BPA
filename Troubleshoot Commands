@@ -9,3 +9,6 @@ ps -ef | grep cds
 To Stop all CAP processes
 pkill -f cds
 lsof -i :4004
+-------------------------------------------------------
+SAP Build Lobby->API Key
+lxgHNPRSy1BgM2h56ZWL22UfkVg7lF7w
